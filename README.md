@@ -82,7 +82,7 @@ We trained and compared several models:
 
 ## 📈 Results
 
-- The best model (Random Forest + tuned features) achieved:
+- The best model (XGBoost using KNN imputer and Chi-Squared) achieved:
   - **F1 Score:** 0.71201
   - 🏆 **Ranked 8th out of 39 teams**
 - Final model prioritized **recall** to avoid misclassifying high-income earners into the lower-tax group
